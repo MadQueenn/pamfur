@@ -1,0 +1,43 @@
+.App {
+  position: relative;
+  width: 500px;
+  height: 800px;
+  background: #162b32;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backgroundImg {
+  width: 329.81px;
+  height: 343px;
+  margin-bottom: 250px;
+}
+
+.logoDiv {
+  margin-left: auto;
+}
+.ellipse {
+  width: 80px;
+  height: 80px;
+  margin-bottom: -5px;
+}
+
+h1 {
+  color: white;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  color: black;
+  padding: 20px 0 0 20px;
+  border: 1px solid #162b32;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}

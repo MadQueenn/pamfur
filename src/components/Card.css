@@ -1,0 +1,44 @@
+.card-component {
+    color: black;
+    padding: 1rem;
+    width: 260px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+      0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  
+    border-radius: 0.5rem;
+  
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+  }
+  
+  .card-component:hover {
+    padding-left: 0.5rem;
+  }
+  
+  .card-component > :first-child {
+    margin-top: 0;
+  }
+  
+  .card-component > :last-child {
+    margin-bottom: 0;
+  }
+  
+  .card-component.orange {
+    background-color: #ffdfb6;
+    border-left: 0.5rem solid #ff9900;
+  }
+  
+  .card-component.green {
+    background-color: #d9ebcb;
+    border-left: 0.5rem solid #bbff00;
+  }
+  
+  .card-component.maroon {
+    background-color: #eec0b8;
+    border-left: 0.5rem solid #ff5100;
+  }
+  
+  .card-component.blue {
+    background-color: #e3fcfc;
+    border-left: 0.5rem solid #00e1ff;
+  }
+  
