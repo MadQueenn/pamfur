@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+# I have deployed the app on Netlify, below is the URL
+
+You can play around with the app at https://pamfur.netlify.app/ 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
