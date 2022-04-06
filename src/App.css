@@ -1,9 +1,12 @@
+
+
 .App {
   position: relative;
-  width: 500px;
-  height: 800px;
   background: #162b32;
-  margin: 0 auto;
+
+  height: 100vh;
+  /* width: 500px;
+  height: 800px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,9 +31,14 @@
 h1 {
   color: white;
 }
+.messageContainer {
+  display: flex;
+  justify-content: center;
+}
 
 .message {
   display: flex;
+  width: 98.5%;
   flex-direction: column;
   position: absolute;
   bottom: 0;
@@ -40,4 +48,5 @@ h1 {
   border: 1px solid #162b32;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
+
 }

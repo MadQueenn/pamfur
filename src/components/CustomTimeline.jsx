@@ -6,15 +6,16 @@ import Typography from "@mui/material/Typography"
 import CustomCard from "./CustomCard";
 
 const CustomTimeline = ({ timelinesData }) => {
+  
 
-  console.log(timelinesData)
   const timeLines = () => {
     return timelinesData.map(
-      ({ eventTime, eventSpan, eventTitle, eventData, colorPalet }, index) => {
+      ({ eventTime, eventSpan, eventTitle, eventData, colorPalet, zoom }, index) => {
         const cardProps = {
           eventTitle,
           eventData,
-          colorPalet
+          colorPalet,
+          zoom
         };
         return (
           <TimelineItem key={index}>

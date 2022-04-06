@@ -1,21 +1,12 @@
 # Getting Started with Create React App
 
-## I have deployed the app on Netlify, below is the URL
-
-You can play around with the app at https://pamfur.netlify.app/ 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-Do following setup to start the app locally
-
-### `npm install`
-
-
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
